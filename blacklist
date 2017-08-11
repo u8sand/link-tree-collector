@@ -1,0 +1,7 @@
+/etc/locale.gen
+/etc/pacman.d/mirrorlist
+/etc/passwd
+/etc/rabbitmq/
+/etc/resolv.conf
+/etc/texmf/
+$HOME/.config/Code/workspaceStorage/
