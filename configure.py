@@ -54,6 +54,6 @@ for path, want in walk_tree(filelist_tree):
   dirname = 'root'+os.path.dirname(f)
   if not os.path.exists(dirname):
     Popen_v(['mkdir', '-p', dirname])
-  Popen_v(['ln', '-s', f, 'root'+f])
+  Popen_v(['ln', '-P', f, 'root'+f])
 print('...', rolling_time())
 print('Done.')
