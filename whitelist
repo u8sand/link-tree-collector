@@ -1,10 +1,11 @@
 /boot/loader/
-/boot/syslinux/
+/boot/syslinux/syslinux.cfg
 /etc/hosts
 /etc/iptables/
 /etc/modprobe.d/
 /etc/modules-load.d/
 /etc/nginx/
+/etc/pacman.d/hooks/
 /etc/ssh/
 /etc/sudoers
 /etc/sysctl.d/
@@ -13,7 +14,6 @@
 /etc/X11/xorg.conf.d/
 $HOME/.config/bakamplayer.ini
 $HOME/.config/Code/User/
-$HOME/.config/Haroopad/
 $HOME/.config/i3/
 $HOME/.config/Thunar/
 $HOME/.config/xfce4/
@@ -21,6 +21,7 @@ $HOME/.conkyrc
 $HOME/.gitconfig
 $HOME/.ipython/ipython_notebook_config.py
 $HOME/.ipython/startup/
+$HOME/.local/bin/
 $HOME/.local/share/nemo/
 $HOME/.profile
 $HOME/.tmux.conf
